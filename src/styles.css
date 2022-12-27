@@ -173,7 +173,7 @@
 @media screen and (max-width: 640px) {
 
     /* Main Container */
-    
+
     .container {
         width: 100vw;
         background: #000000;
@@ -181,6 +181,7 @@
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         height: 320px;
+        padding: 1.5rem;
     }
 
     /* Photo Side */
@@ -203,4 +204,13 @@
         color: #FFFFFF;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+
+    /* Main Container */
+    
+    .container {
+        padding: 0rem;
+    }
 }
